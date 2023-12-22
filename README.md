@@ -14,6 +14,23 @@ Here's an example of a conversation with the bot:
 
 ![alt text](example.png "Example conversation")
 
+## Download source code
+
+To download the source code, run the following command:
+
+```bash
+git clone https://github.com/qilowoq/ragout.git
+```
+
+## Dependencies
+
+To install dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+Also in BotFather, set the bot's privacy to `Disable` so that it can see all messages in the chat.
+
 ## Running the bot
 
 To run the bot, you need to set the `BOT_API_KEY` and `OPENAI_API_KEY` in the `keys.py` file. Then, simply run the `main.py` file.
@@ -23,16 +40,6 @@ python main.py
 ```
 
 The bot will start polling for updates and respond to messages.
-
-## Dependencies
-
-To install dependencies, run the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
-Also in BotFather, set the bot's privacy to `Disable` so that it can see all messages in the chat.
 
 ## License
 

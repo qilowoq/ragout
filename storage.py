@@ -76,4 +76,5 @@ class VectorStorage:
         Returns:
             None
         """
-        del self.vectors[username]
+        if username in self.vectors:
+            del self.vectors[username]
